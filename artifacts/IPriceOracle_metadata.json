@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "unitPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isPeak",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DemoMarket.sol": "IPriceOracle"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DemoMarket.sol": {
+			"keccak256": "0x831ed49d1fc07c963dea4a57b4d4362b23248138f220aef2611b62935ea895fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94faefa05f009c06adebaac5740288290ed90f689917c1d545b2b0d8f0a1da39",
+				"dweb:/ipfs/QmcgmUmB8Cyt9mg44Kk5vD8u6t9wH9us7bjkWcyCywFu72"
+			]
+		}
+	},
+	"version": 1
+}
